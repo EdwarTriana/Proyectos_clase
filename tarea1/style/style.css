@@ -1,0 +1,201 @@
+/* Estilos generales*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.section {
+    width: 100%;
+}
+.contenedor {
+    background-color: black;
+    color: rgb(247, 241, 241);
+    
+    width: 100%;
+    height: 3rem;
+}
+/*dimensiones del logo*/
+.nav-logo {
+    width: 15%;
+    height: 1.5rem;
+    padding-top: .5rem;
+    padding-left: 3rem;
+}
+/*ubicacion del las opciones de navegacion*/
+.opciones-menu {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    margin: 10px;
+    padding-right: 3%;
+    
+}
+.opciones-menu li a {
+    padding: 10px;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+   }
+
+.opciones-menu li a:hover {
+        color: rgb(117, 59, 224);
+    }
+
+
+.nav-logo-contenedor {
+    margin-top: .5rem;
+    float: left;
+}
+/*formulario*/
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;   
+}
+
+
+.nombres {
+   
+    width: 28rem;
+    padding-right: 1rem;
+}
+.nombres:hover{
+    border-color: blue;
+    transition-duration: 1s;
+}
+.apellidos {
+    width: 35rem;
+    float: right;
+}
+.apellidos:hover {
+        border-color: blue;
+        transition-duration: 1s;
+}   
+
+.telefono {
+    width: 20rem;
+}
+.telefono:hover {
+    border-color: blue;
+    transition-duration: 1s;
+}
+.direccion {
+    width: 10rem;
+     float: center;
+}
+.direccion:hover {
+    border-color: blue;
+    transition-duration: 1s;
+}
+.email {
+    float: right;
+    width: 10rem;
+     padding-top: 2px;
+}
+.email:hover {
+    border-color: blue;
+    transition-duration: 1s;
+}
+.espacio:hover {
+    border-color: blue;
+    transition-duration: 1s;
+}
+.solo-nombre {
+        
+    float: left;
+    padding-right: 2rem;
+    height: 2px;
+    padding-left: 1rem;
+}
+.solo-apellidos {
+    
+    float: right;
+    padding-right: 2rem;
+    height: 2px;
+    padding-left: 1rem;
+          
+}
+
+.solo-telefono {
+    float: left;
+    padding-top: 3rem;
+    padding-left: 20px;
+    padding-right: 8px;
+    
+}
+.solo-direccion{
+   
+    
+    padding-top: 3rem;
+    padding-left: 22rem;
+    padding-right: 35rem;
+    width: 10rem;
+        
+}
+
+.solo-solicitud  {
+    
+    float: right;
+    
+    height: 2px;
+       
+}
+
+.correo {
+    width: 15rem;/*por el momento*/
+}
+.mensaje {
+    width: 5rem;
+    padding-left: 20px;
+}
+.espacio {
+    width: 62rem;
+    height: 5rem;
+    padding-left: 20px;
+}
+
+.botones {
+    float: right;
+
+}
+.cancelar {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.enviar { 
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+} 
+.cancelar:hover {
+    border-radius: 10px;
+    background-color: green;
+    transition-duration: 1s;
+}
+.enviar:hover {
+    border-radius: 10px;
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.card-character {
+  
+    
+    margin: 10%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 10px 14px 24px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 24px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 14px 24px -7px rgba(0,0,0,0.75);
+
+}
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Formulario</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <!--Icono de navegacion-->
+    <link rel="icon" type="image/png" href="./style/img/nav-logo.png">
+</head>
+<body>
+    <!--Barra de Navegacion-->
+    <div class="contenedor">
+        <nav>
+            <!--logo-->
+            <div class="nav-logo-contenedor">
+                <a href="#menu"> <img class="nav-logo" src="./style/img/nav-logo.png" alt="nav-logo">
+                </a>
+            </div>
+            <!--opciones-->
+            <ul class="opciones-menu">
+                <li> <a href="#contacto">Contactanos</a> </li>
+                <li> <a href="#portafolio">Portafolio</a> </li>
+            </ul>
+        </nav>
+    </div>
+     <!--fin de la barra de navegacion-->
+
+     <!--formulario-->
+    <main>
+     <section class=" card-character">
+          <div class="formulario">
+              <form>
+                   <h1> <b> Contactanos </b></h1>
+             
+                        <div class="solo-nombre"> 
+                          <label for="nombres"> Nombres</label>
+                           <br>
+                           <input type="text" name="nombres" class="nombres" placeholder="Nombres">
+                      </div>
+
+                       <div class="solo-apellidos">
+                          <label for="apellidos"> Apellidos</label>
+                          <br>
+                           <input type="text" name="apellidos" class="apellidos" placeholder="Apellidos">
+                           <br>
+                       </div> 
+
+                       <div class="solo-telefono">
+                           <label for="telefono"> Telefono</label>
+                            <br>
+                           <input type="number" name="telefono" class="telefono" placeholder="Telefono"> 
+                     </div>
+
+                      <div class="solo-direccion">
+                           <label for="direccion"> Direccion</label>
+                            <br>
+                            <input type="text" name="direccion" class="direccion" placeholder="Direccion">
+                      </div>
+                       
+                       <div class="solo-solicitud">                       
+                            <label class="solo-solicitud" for="solicitud"> Solicitud</label>
+                            <br>
+                            <input type="email" name="email" class="email" placeholder="E-mail">
+                      </div>
+
+                      <div class="mensaje">
+                            <p class="correo">E-mail</p>
+                            <br>
+                           <textarea class="espacio" name="descripcion" placeholder="Descripcion"></textarea>
+                      </div>
+                      
+                      <div class="botones">
+                        <button class="cancelar"> <a href="#cancelar"></a> Cancelar</button>
+                         <button class="enviar"> <a href="enviar"></a> Enviar</button>
+                        </div>
+              </form>   
+
+            </div>
+
+     </section>
+    </main>
+
+        
+        
+        
+
+
+        
+
+    </div>
+    
+</body>
+</html>
